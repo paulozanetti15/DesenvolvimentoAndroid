@@ -1,12 +1,15 @@
 Descrição
+
 Este é um aplicativo simples de login em Android, onde os usuários podem inserir seu nome de usuário e senha para fazer login. O aplicativo valida as credenciais inseridas pelo usuário comparando-as com uma lista predefinida de pares de nome de usuário e senha. Se as credenciais forem válidas, o usuário é redirecionado para uma segunda atividade.
 
 Funcionalidades Principais
+
 Entrada de nome de usuário e senha.
 Validação das credenciais.
 Exibição de mensagem de erro em caso de credenciais inválidas.
 Adição de novos usuários e senhas.
 Estrutura do Código
+
 O código está dividido em duas atividades principais:
 
 MainActivity
@@ -17,11 +20,3 @@ Nesta atividade, os usuários podem adicionar novos usuários e senhas, que ser�
 
 Testes
 O aplicativo inclui testes unitários simples para garantir que a lógica subjacente funcione corretamente.
-
-Próximos Passos
-Este aplicativo pode ser expandido com várias melhorias e recursos adicionais, como:
-
-Criptografia de senhas.
-Melhor gerenciamento de sessão.
-Personalização da interface do usuário.
-Implementação de um banco de dados para armazenar os usuários e senhas de forma persistente.
